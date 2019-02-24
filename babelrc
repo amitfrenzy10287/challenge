@@ -1,0 +1,13 @@
+{
+  "presets": [
+    ["env", {
+      "targets": { node : "6" } // specify targets here
+    }],
+    "react",
+    "es2015",
+    "stage-2"
+  ],
+  "plugins": [
+    "syntax-dynamic-import"
+  ]
+}
